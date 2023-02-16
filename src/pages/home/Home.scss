@@ -1,0 +1,79 @@
+.home {
+  // background-color: rebeccapurple;
+  .main-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+  }
+  .user_name {
+    color: rgb(156, 49, 156);
+  }
+  .title {
+    color: white;
+  }
+  display: flex;
+  .homeContainer {
+    flex: 6;
+
+    .widgets {
+      display: flex;
+      padding: 20px;
+    }
+
+    .listContainer {
+      -webkit-box-shadow: 6px 1px 30px -6px rgba(0, 0, 0, 0.42);
+      box-shadow: 6px 1px 30px -6px rgba(0, 0, 0, 0.42);
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+
+      .list {
+        font-weight: 500;
+        color: gray;
+        margin-bottom: 20px;
+      }
+      .listTitle {
+        font-weight: 600;
+        font-style: bold;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+      }
+      .t_title {
+        display: flex;
+      }
+    }
+
+    .t-ques {
+      -webkit-box-shadow: 6px 1px 30px -6px rgba(0, 0, 0, 0.42);
+      box-shadow: 6px 1px 30px -6px rgba(0, 0, 0, 0.42);
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+
+      .list {
+        font-weight: 500;
+        color: gray;
+        margin-bottom: 20px;
+      }
+      .listTitle {
+        font-weight: 600;
+        font-style: bold;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+      }
+      .t_title {
+        display: flex;
+      }
+    }
+    .featured-content {
+      display: flex;
+    }
+  }
+}
